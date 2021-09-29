@@ -1,0 +1,20 @@
+{
+  "sections": [
+    {
+      "heading": "Who are we",
+      "paragraph": "We are a bunch of cats which have been working together for two years now on several different amateur rocket projects. In our eyes and through experience the commercially available sounding rocket electronics lack in many elements. Therefore we founded C.A.T.S. a small company which tries to improve rocket electronics for everyone - from amateurs through student organizations to hardcore sounding rocket fans."
+    },
+    {
+      "heading": "Why make everything open source?",
+      "paragraph": "When we started the project it was obvious for us from day one that everything needed to be open source. It brings too many advantages; the customer can adapt our product to his needs, he can contribute to the project, report bugs and most importantly, he knows exactly what he is buying."
+    },
+    {
+      "heading": "What's next?",
+      "paragraph": "Currently we have just one board - the CATS One. It is an advanced general purpose flight computer. Development of that board is never finished, we are always trying to improve. In parallel we are working on a telemetry extension board for the CATS one. In the future you can expect a wide range of smaller and bigger boards which fit every need."
+    },
+    {
+      "heading": "In the meantime...",
+      "paragraph": "... have a look at our current product, join our discord if you have questions, ideas or just want to talk about sounding rockets!"
+    }
+  ]
+}

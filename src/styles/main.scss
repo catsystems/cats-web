@@ -1,0 +1,15 @@
+@import 'reset';
+@import 'variables';
+@import 'typography';
+
+@import 'components/header';
+@import 'components/footer';
+@import 'components/feature';
+@import 'components/intro';
+
+@import 'utils';
+
+body {
+  color: $color-text;
+  font-family: 'Inter', sans-serif;
+}

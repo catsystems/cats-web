@@ -1,0 +1,8 @@
+# usual stuff
+node_modules
+
+# 11ty build output
+_site
+
+# MacOS
+.DS_Store

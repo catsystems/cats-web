@@ -1,0 +1,13 @@
+.features-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4.375rem;
+}
+
+.feature {
+  text-align: center;
+
+  img {
+    max-width: 30vw;
+  }
+}

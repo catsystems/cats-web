@@ -1,0 +1,8 @@
+.wrap {
+  padding-left: $wrap-size;
+  padding-right: $wrap-size;
+}
+
+.clear-header {
+  margin-top: calc(2rem + #{$header-decoration-height});
+}
