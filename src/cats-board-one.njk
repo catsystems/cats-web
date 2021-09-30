@@ -1,0 +1,26 @@
+---
+layout: base.njk
+---
+
+<div class="wrap">
+  <h1>Cats Board One</h1>
+  <img src="/images/board.png"/>
+  <p>{{ description }}</p>
+  <h2>Get the latest updates</h2>
+  <form>
+    <input type="email" placeholder="Enter your email"/>
+    <button class="primary-button">Subscribe</button>
+  </form>
+  <h2>Features</h2>
+  <table>
+    <tbody>
+      {% for feature in features %}
+        <tr>
+          {% for d in feature %}
+            <td>{{ d }}</td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

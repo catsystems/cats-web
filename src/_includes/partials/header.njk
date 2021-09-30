@@ -1,4 +1,22 @@
 <header>
-  <a href="/">{{ "/images/logo/logo.svg" | svgContents | safe }}</a>
-  <button>{{ "/images/icons/menu.svg" | svgContents | safe }}</button>
+  <a href="/" class="logo-link">{{ "/images/logo/logo.svg" | svgContents | safe }}</a>
+  <button class="menu-icon">{{ "/images/icons/menu.svg" | svgContents | safe }}</button>
 </header>
+<div class="menu">
+  <nav class="menu-nav">
+    <ul>
+      <li>
+        <a href="/about">About</a>
+      </li>
+      <li>
+        <a href="/community">Community</a>
+      </li>
+      <li>
+        <a href="/software">Software</a>
+      </li>
+      <li>
+        <a href="/cats-board-one">C.A.T.S Board One</a>
+      </li>
+    </ul>
+  </nav>
+</div>

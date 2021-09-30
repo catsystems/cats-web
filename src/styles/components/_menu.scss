@@ -1,0 +1,30 @@
+.menu {
+  background-color: $color-background;
+  height: 0;
+  left: 0;
+  min-height: 0;
+  overflow-y: hidden;
+  position: fixed;
+  right: 0;
+  top: calc(#{$logo-height} + #{$header-vertical-padding} * 2);
+
+  &-nav {
+    padding: 2rem;
+  }
+
+  ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    color: $color-primary-700;
+    text-decoration: none;
+  }
+}

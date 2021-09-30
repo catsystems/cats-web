@@ -2,14 +2,25 @@
 @import 'variables';
 @import 'typography';
 
+@import 'components/buttons';
+@import 'components/fields';
+@import 'components/table';
 @import 'components/header';
 @import 'components/footer';
 @import 'components/feature';
 @import 'components/intro';
+@import 'components/hero';
+@import 'components/logo';
+@import 'components/menu';
 
 @import 'utils';
 
 body {
   color: $color-text;
   font-family: 'Inter', sans-serif;
+  padding-top: calc(#{$logo-height} + #{$header-vertical-padding} * 2 + #{$header-decoration-height})
+}
+
+img {
+  max-width: 100%;
 }

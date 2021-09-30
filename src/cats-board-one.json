@@ -1,0 +1,15 @@
+{
+  "imageSrcs": ["/images/board.png"],
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit erat tortor vitae iaculis.",
+  "features": [
+    ["Microcontroller", "ATmega325"],
+    ["Operating Voltage", "5V"],
+    ["Input Voltage (Recommended)", "7-12V"],
+    ["Input Voltage (Limit)", "6-20V"],
+    ["Digital L/O Pins", "14 (of which 6 provide PVM output)"],
+    ["Pwm Digital L/O Pins", "6"],
+    ["Analog Input Pins", "6"],
+    ["Dc current per L/O Pin", "20mA"],
+    ["Dc current for 3.3V Pin", "50mA"]
+  ]
+}

@@ -1,11 +1,19 @@
 $header-decoration-height: 2.5rem;
+$header-vertical-padding: 0.5rem;
 
 header {
   background-color: $color-primary-700;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem $wrap-size;
-  position: relative;
+  left: 0;
+  padding: $header-vertical-padding $wrap-size;
+  position: fixed;
+  right: 0;
+  top: 0;
+
+  .logo-link {
+    line-height: 0;
+  }
 }
 
 header::after {

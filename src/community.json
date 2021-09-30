@@ -1,0 +1,20 @@
+{
+  "sections": [
+    {
+      "heading": "Stay informed",
+      "paragraph": "All new announcements, code and hardware updates are posten in our discord server. New releases are obviously also released on our github. For smaller anouncements, updates and milestones check out our instagram."
+    },
+    {
+      "heading": "Join the conversation",
+      "paragraph": "Our main platform for conversation, feedback etc. is our discord server. If you have interesting idea’s, feedback, bugfixes or just want to talk about rockets and flight electronics join our server!"
+    },
+    {
+      "heading": "What's next?",
+      "paragraph": "Do you want to contribute to our project? Hit us up on  ---------- and let us know your idea! We would be proud to have more people implementing new features into our project."
+    },
+    {
+      "heading": "Additional community resources",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac, vulputate consequat nulla sit. Sit et molestie iaculis ut tellus eu. Egestas nulla sed aliquam vulputate nisi pellentesque fermentum risus proin."
+    }
+  ]
+}

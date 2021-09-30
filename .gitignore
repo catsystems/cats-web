@@ -4,5 +4,8 @@ node_modules
 # 11ty build output
 _site
 
+# Parcel's cache
+.cache
+
 # MacOS
 .DS_Store

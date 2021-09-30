@@ -1,0 +1,13 @@
+
+%button {
+  border-radius: 0.375rem;
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  padding: 0.75rem 0;
+  width: 100%;
+}
+
+.primary-button {
+  @extend %button;
+  background-color: $color-accent-400;
+}

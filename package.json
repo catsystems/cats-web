@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"eleventy --serve\" npm:watch:sass",
+    "dev": "concurrently \"eleventy --serve\" npm:watch:*",
     "watch:sass": "sass src/styles:_site/css --watch",
+    "build:sass": "sass src/styles:_site/css",
+    "watch:js": "parcel watch src/scripts/main.js --out-dir _site/js",
+    "build:js": "parcel build src/scripts/main.js --out-dir _site/js",
     "lint:sass": "stylelint \"src/styles/**/*.scss\"",
-    "build": "eleventy"
+    "build": "concurrently eleventy npm:build:*"
   },
   "keywords": [],
   "author": "",
@@ -16,9 +19,13 @@
     "@11ty/eleventy": "^0.12.1",
     "concurrently": "^6.2.2",
     "eleventy-plugin-svg-contents": "^0.7.0",
+    "parcel-bundler": "^1.12.5",
     "sass": "^1.42.1",
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-sass-guidelines": "^8.0.0"
+  },
+  "dependencies": {
+    "motion": "^10.1.1"
   }
 }
