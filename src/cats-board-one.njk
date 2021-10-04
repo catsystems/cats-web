@@ -4,7 +4,9 @@ layout: base.njk
 
 <div class="wrap">
   <h1>Cats Board One</h1>
-  <img src="/images/board.png"/>
+  <div class="stretched-out">
+    <img src="/images/board.png"/>
+  </div>
   <p>{{ description }}</p>
   <h2>Get the latest updates</h2>
   <form>
@@ -23,4 +25,8 @@ layout: base.njk
       {% endfor %}
     </tbody>
   </table>
+  <h2>Interactive Board Viewer</h2>
+  <div class="stretched-out">
+    <div class="altium-ecad-viewer" data-project-src="a8110220-c272-496c-921d-ba5b2bd93fe7" data-enabled-views="sch,pcb,3d,bom" data-active-view="sch"></div>
+  </div>
 </div>

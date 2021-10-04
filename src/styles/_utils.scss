@@ -3,6 +3,7 @@
   padding-right: $wrap-size;
 }
 
-.clear-header {
-  margin-top: calc(2rem + #{$header-decoration-height});
+.stretched-out {
+  margin-left: -$wrap-size;
+  margin-right: -$wrap-size;
 }
