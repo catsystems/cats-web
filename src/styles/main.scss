@@ -1,5 +1,6 @@
 @import 'reset';
 @import 'variables';
+@import 'zindex';
 @import 'typography';
 
 @import 'components/buttons';
@@ -11,6 +12,8 @@
 @import 'components/intro';
 @import 'components/hero';
 @import 'components/logo';
+@import 'components/people';
+@import 'components/person-card';
 @import 'components/menu';
 @import 'components/altium-ecad-viewer';
 

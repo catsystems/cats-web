@@ -1,0 +1,29 @@
+.person-card {
+  border-radius: 0.625rem;
+  padding-bottom: 1.25rem;
+  padding-top: 4.5rem;
+  position: relative;
+  text-align: center;
+
+  img {
+    height: 7.5rem;
+    left: 50%;
+    position: absolute;
+    top: -4.5rem;
+    transform: translateX(-50%);
+    width: 7.5rem;
+  }
+
+  .name {
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+
+  .role {
+    margin-top: 0.75rem;
+  }
+
+  + .person-card {
+    margin-top: 9rem;
+  }
+}

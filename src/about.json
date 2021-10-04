@@ -1,4 +1,24 @@
 {
+  "people": [
+    {
+      "name": "Luca",
+      "role": "Hardware and software",
+      "imageSrc": "/images/luca-cat.png",
+      "backgroundColor": "rgba(46, 133, 197, 0.3)"
+    },
+    {
+      "name": "Nemanja",
+      "role": "Software & Data Handling",
+      "imageSrc": "/images/nemanja-cat.png",
+      "backgroundColor": "#CCC"
+    },
+    {
+      "name": "Jonas",
+      "role": "Software & Control",
+      "imageSrc": "/images/jonas-cat.png",
+      "backgroundColor": "rgba(244, 168, 80, 0.5)"
+    }
+  ],
   "sections": [
     {
       "heading": "Who are we",

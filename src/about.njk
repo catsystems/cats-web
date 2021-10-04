@@ -8,4 +8,15 @@ layout: base.njk
     <h2>{{ section.heading }}</h2>
     <p>{{ section.paragraph }}</p>
   {% endfor %}
+  <div class="people">
+    {% for person in people %}
+      <div class="person-card" style="background-color: {{ person.backgroundColor }}">
+        <img src={{ person.imageSrc }} />
+        <div>
+          <div class="name">{{ person.name }}</div>
+          <div class="role">{{ person.role }}</div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </div>
