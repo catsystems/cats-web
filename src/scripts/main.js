@@ -14,11 +14,17 @@ document.querySelector('.menu-icon').addEventListener('click', () => {
   menuExpanded = !menuExpanded
 })
 
-document.querySelector('.newsletter-form').addEventListener('submit', (e) => {
-  e.preventDefault()
-})
+const newsletterForm = document.querySelector('.newsletter-form')
+if (newsletterForm) {
+  newsletterForm.addEventListener('submit', (e) => {
+    e.preventDefault()
+  })
+}
 
-document.querySelector('.newsletter-button').addEventListener('click', (e) => {
-  e.preventDefault()
-  alert('Not implemented, yet.')
-})
+const newsletterButton = document.querySelector('.newsletter-button')
+if (newsletterButton) {
+  newsletterButton.addEventListener('click', (e) => {
+    e.preventDefault()
+    alert('Not implemented, yet.')
+  })
+}
