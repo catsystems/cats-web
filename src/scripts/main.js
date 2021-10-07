@@ -1,5 +1,16 @@
 import { animate } from 'motion'
 import './embla'
+import { withoutTrailingSlash } from './utils'
+
+// Color current page link
+document.querySelectorAll('.page-link').forEach((el) => {
+  if (
+    withoutTrailingSlash(new URL(el.href).pathname) ==
+    withoutTrailingSlash(new URL(window.location.href).pathname)
+  ) {
+    el.classList.add('page-link--active')
+  }
+})
 
 // Toggle mobile menu on button click
 let menuExpanded = false

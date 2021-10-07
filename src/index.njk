@@ -1,12 +1,22 @@
---- 
-layout: base.njk
----
+{% extends "base.njk" %}
 {% from "macros.njk" import feature %}
 
-<div class="hero">Fully open source sounding rocket computers</div>
-{{ "/images/cats/cat-1.svg" | svgContents | safe }}
-{{ "/images/cats/cat-2.svg" | svgContents | safe }}
-<div class="wrap">
+{% block css %}
+  <style>
+    @media (min-width: 1024px) {
+      .header-decoration {
+        display: none;
+      }
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <div class="hero">
+    <div class="hero-text">Fully open source sounding rocket computers</div>
+  </div>
+  {{ "/images/cats/cat-1.svg" | svgContents | safe }}
+  {{ "/images/cats/cat-2.svg" | svgContents | safe }}
   <div class="intro">
     <h1>Why CATS</h1>
     <p>We at CATS made it our goal to provide easy and modifiable rocket electronics for your sounding rocket. With the help of the documentation the boards are easily configurable for any used-case. As everything is open source, the functionality can be adapted to your specific needs.</p>
@@ -16,4 +26,4 @@ layout: base.njk
       {{ feature(featureData.heading, featureData.paragraph, featureData.imageSrc) }}
     {% endfor %}
   </div>
-</div>
+{% endblock %}

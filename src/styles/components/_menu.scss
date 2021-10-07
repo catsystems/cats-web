@@ -24,8 +24,11 @@
     list-style-type: none;
   }
 
-  a {
+  a:not(.page-link--active) {
     color: var(--color-primary-700);
+  }
+
+  a {
     text-decoration: none;
   }
 }

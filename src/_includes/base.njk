@@ -8,10 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
+    {% block css %}{% endblock %}
   </head>
   <body>
     {% include "partials/header.njk" %}
-    {{ content | safe}}
+    <main>
+      {% block content %}{% endblock %}
+    </main>
     {% include "partials/footer.njk" %}
     <script src="https://viewer.altium.com/client/static/js/embed.js"></script>
     <script src="/js/main.js"></script>

@@ -1,3 +1,11 @@
 .people {
-  margin-top: 9rem; 
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+  margin-top: 9.375rem;
+
+  @include respond-to('lg') {
+    flex-direction: row;
+    gap: 4.375rem;
+  }
 }

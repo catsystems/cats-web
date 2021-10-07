@@ -1,17 +1,19 @@
----
-layout: base.njk
----
+{% extends "base.njk" %}
 
-<div class="wrap">
-  <h1>About</h1>
-  {% for section in sections %}
-    <h2>{{ section.heading }}</h2>
-    <p>{{ section.paragraph | safe }}</p>
-  {% endfor %}
+{% block content %}
+  <h1 class="page-heading">About</h1>
+  <div class="section-container">
+    {% for section in sections %}
+      <div class="section">
+        <h2>{{ section.heading }}</h2>
+        <p>{{ section.paragraph | safe }}</p>
+      </div>
+    {% endfor %}
+  </div>
   <div class="people">
     {% for person in people %}
       <div class="person-card" style="background-color: {{ person.backgroundColor }}">
-        <img src={{ person.imageSrc }} />
+        <img src="{{ person.imageSrc }}"/>
         <div>
           <div class="name">{{ person.name }}</div>
           <div class="role">{{ person.role }}</div>
@@ -19,4 +21,4 @@ layout: base.njk
       </div>
     {% endfor %}
   </div>
-</div>
+{% endblock %}

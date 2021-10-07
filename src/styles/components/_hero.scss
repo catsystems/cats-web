@@ -7,8 +7,28 @@
   );
   font-size: 2rem;
   font-weight: 500;
+  left: 0;
   padding: 3rem var(--wrap-size);
-  position: relative;
-  top: calc(-1 * var(--header-decoration-height));
+  position: absolute;
+  right: 0;
+  top: calc(var(--header-height));
   z-index: var(--z-index-hero);
+
+  @include respond-to('lg') {
+    font-size: 3.5rem;
+    padding-bottom: 4.375rem;
+    padding-top: 4.375rem;
+
+    &-text {
+      width: 70%;
+    }
+  }
+
+  @include respond-to('xl') {
+    clip-path: polygon(0 0, 85% 0, 60% 100%, 0 100%);
+
+    &-text {
+      width: 50%;
+    }
+  }
 }

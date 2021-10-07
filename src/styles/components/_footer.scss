@@ -10,13 +10,19 @@ footer {
   padding: 1.5rem var(--wrap-size);
   position: relative;
 
+  @include respond-to('lg') {
+    --footer-decoration-height: 3.75rem;
+    justify-content: flex-end;
+    margin-top: calc(var(--footer-decoration-height) + 5.625rem);
+  }
+
   a {
     color: var(--color-neutral-400);
     font-weight: 300;
     text-decoration: none;
   }
 
-  ::before {
+  &::before {
     background: linear-gradient(
       0deg,
       rgba(254, 159, 51, 0.94) 10%,
@@ -32,13 +38,29 @@ footer {
     top: calc(-1 * var(--footer-decoration-height));
     width: 100%;
   }
-}
 
-.socials {
-  display: flex;
-  gap: 1.25rem;
+  .container {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
 
-  @media (min-width: 1024px) {
-    gap: 2.5rem;
+    @include respond-to('lg') {
+      align-items: center;
+      flex-direction: row;
+      gap: 2.5rem;
+      margin-left: auto;
+    }
+  }
+
+  .icons {
+    display: flex;
+    gap: 1.25rem;
+
+    @include respond-to('lg') {
+      gap: 2.5rem;
+      order: 2;
+    }
   }
 }

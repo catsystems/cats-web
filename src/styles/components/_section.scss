@@ -1,0 +1,19 @@
+.section-container {
+  @include respond-to('lg') {
+    column-gap: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 6.25rem;
+  }
+}
+
+.section {
+  @include respond-to('lg') {
+    h2 {
+      margin-top: 0;
+    }
+  }
+  h2 {
+    margin-top: 2rem;
+  }
+}

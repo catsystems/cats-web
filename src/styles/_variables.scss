@@ -1,3 +1,5 @@
+$breakpoint-lg: 1024px;
+
 :root {
   --logo-height: 3.25rem;
 
@@ -22,7 +24,9 @@
   --color-text: #000;
   --color-background: #fff;
 
-  @media (min-width: 1024px) {
+  @include respond-to('lg') {
     --wrap-size: 4.375rem;
+    --header-vertical-padding: 1.5rem;
+    --header-decoration-height: 3.75rem;
   }
 }

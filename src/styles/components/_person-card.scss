@@ -6,6 +6,10 @@
   position: relative;
   text-align: center;
 
+  @include respond-to('lg') {
+    flex-grow: 1;
+  }
+
   img {
     height: 7.5rem;
     left: 50%;
@@ -22,9 +26,5 @@
 
   .role {
     margin-top: 0.75rem;
-  }
-
-  + .person-card {
-    margin-top: 9rem;
   }
 }

@@ -1,9 +1,7 @@
----
-layout: base.njk
----
+{% extends "base.njk" %}
 
-<div class="wrap">
-  <h1>Cats Board One</h1>
+{% block content %}
+  <h1 class="page-heading">Cats Board One</h1>
   <div class="stretched-out">
     <div class="embla">
       <div class="embla-viewport">
@@ -49,4 +47,4 @@ layout: base.njk
   <div class="stretched-out">
     <div class="altium-ecad-viewer" data-project-src="a8110220-c272-496c-921d-ba5b2bd93fe7" data-enabled-views="sch,pcb,3d,bom" data-active-view="sch"></div>
   </div>
-</div>
+{% endblock %}

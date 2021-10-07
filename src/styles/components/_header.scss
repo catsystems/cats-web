@@ -9,15 +9,33 @@ header {
   top: 0;
   z-index: var(--z-index-header);
 
+  @include respond-to('lg') {
+    .menu-button {
+      display: none;
+    }
+  }
+
   .logo-link {
     line-height: 0;
   }
 
-  @media (min-width: 1024px) {
-    --header-vertical-padding: 1.5rem;
+  nav {
+    display: none;
+    place-items: center;
 
-    .menu-button {
-      display: none;
+    @include respond-to('lg') {
+      display: grid;
+    }
+
+    ul {
+      display: flex;
+      gap: 4rem;
+      list-style-type: none;
+    }
+
+    a {
+      color: var(--color-neutral-200);
+      text-decoration: none;
     }
   }
 }

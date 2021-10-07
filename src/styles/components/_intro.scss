@@ -2,6 +2,12 @@
   margin-bottom: 4.375rem;
   margin-top: 2rem;
 
+  @include respond-to('lg') {
+    margin-bottom: 6rem;
+    margin-top: 8rem;
+    text-align: center;
+  }
+
   h1 {
     text-align: center;
   }
