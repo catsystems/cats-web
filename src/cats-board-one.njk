@@ -5,7 +5,27 @@ layout: base.njk
 <div class="wrap">
   <h1>Cats Board One</h1>
   <div class="stretched-out">
-    <img src="/images/board.png"/>
+    <div class="embla">
+      <div class="embla-viewport">
+        <div class="embla-container">
+          <div class="embla-slide">
+            <img class="embla-slide-img" src="/images/cats-one/board.png"/>
+          </div>
+          <div class="embla-slide">
+            <img class="embla-slide-img" src="/images/cats-one/cat-1.jpg"/>
+          </div>
+          <div class="embla-slide">
+            <img class="embla-slide-img" src="/images/cats-one/cat-2.jpg"/>
+          </div>
+        </div>
+      </div>
+      <button class="embla-button embla-button--prev hit-target" type="button">
+        {{ "/images/icons/left-arrow.svg" | svgContents | safe }}
+      </button>
+      <button class="embla-button embla-button--next hit-target" type="button">
+        {{ "/images/icons/right-arrow.svg" | svgContents | safe }}
+      </button>
+    </div>
   </div>
   <p>{{ description | safe }}</p>
   <h2>Get the latest updates</h2>

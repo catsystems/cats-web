@@ -1,0 +1,70 @@
+.embla {
+  background-color: #f7f7f7;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 670px;
+  position: relative;
+
+  &-viewport {
+    overflow: hidden;
+    width: 100%;
+
+    .is-draggable {
+      cursor: move;
+      cursor: grab;
+    }
+
+    .is-dragging {
+      cursor: grabbing;
+    }
+  }
+
+  &-container {
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    user-select: none;
+    user-select: none;
+  }
+
+  &-slide {
+    margin-right: 10px;
+    min-width: 100%;
+    overflow: hidden;
+    position: relative;
+
+    &-img {
+      display: block;
+      min-height: 100%;
+      min-width: 100%;
+    }
+  }
+
+  &-button {
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    justify-content: center;
+    outline: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    touch-action: manipulation;
+    transform: translateY(-50%);
+    z-index: 1;
+
+    &:disabled {
+      cursor: default;
+      opacity: 0.3;
+    }
+
+    &--prev {
+      left: 0;
+    }
+
+    &--next {
+      right: 0;
+    }
+  }
+}

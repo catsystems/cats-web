@@ -26,6 +26,7 @@
     "stylelint-config-sass-guidelines": "^8.0.0"
   },
   "dependencies": {
+    "embla-carousel": "^5.0.1",
     "motion": "^10.1.1"
   }
 }

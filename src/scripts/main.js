@@ -1,4 +1,5 @@
 import { animate } from 'motion'
+import './embla'
 
 // Toggle mobile menu on button click
 let menuExpanded = false
@@ -35,6 +36,6 @@ const newsletterButton = document.querySelector('.newsletter-button')
 if (newsletterButton) {
   newsletterButton.addEventListener('click', (e) => {
     e.preventDefault()
-    alert('Not implemented, yet.')
+    alert('Not implemented yet.')
   })
 }
