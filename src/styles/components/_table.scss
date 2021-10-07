@@ -1,13 +1,12 @@
 table {
-  border-collapse: collapse; 
+  border-collapse: collapse;
 }
 
 tr:nth-of-type(2n) {
-  background-color: $color-neutral-300;
+  background-color: var(--color-neutral-300);
 }
 
 td {
-  border: 2px solid $color-neutral-400;
+  border: 2px solid var(--color-neutral-400);
   padding: 1.25rem 0.625rem;
 }
-

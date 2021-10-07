@@ -1,34 +1,37 @@
-$footer-decoration-height: 2.5rem;
-
 footer {
+  --footer-decoration-height: 2.5rem;
   align-items: center;
-  background-color: $color-primary-700;
-  color: $color-neutral-400;
+  background-color: var(--color-primary-700);
+  color: var(--color-neutral-400);
   display: flex;
   justify-content: space-between;
-  margin-top: calc(#{$footer-decoration-height} + 2.5rem);
-  padding: 1.5rem $wrap-size;
+  margin-top: calc(var(--footer-decoration-height) + 2.5rem);
+  padding: 1.5rem var(--wrap-size);
   position: relative;
-}
 
-footer::before {
-  background: linear-gradient(
-    0deg,
-    rgba(254, 159, 51, 0.94) 10%,
-    #f4a850 50%,
-    rgba(255, 190, 49, 0.94) 90%
-  );
-  clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 60% 0%, 30% 50%, 0% 50%);
-  content: '';
-  display: block;
-  height: $footer-decoration-height;
-  left: 0;
-  position: absolute;
-  top: -#{$footer-decoration-height};
-  width: 100%;
+  ::before {
+    background: linear-gradient(
+      0deg,
+      rgba(254, 159, 51, 0.94) 10%,
+      #f4a850 50%,
+      rgba(255, 190, 49, 0.94) 90%
+    );
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 60% 0%, 30% 50%, 0% 50%);
+    content: '';
+    display: block;
+    height: var(--footer-decoration-height);
+    left: 0;
+    position: absolute;
+    top: calc(-1 * var(--footer-decoration-height));
+    width: 100%;
+  }
 }
 
 .socials {
   display: flex;
   gap: 1.25rem;
+
+  @media (min-width: 1024px) {
+    gap: 2.5rem;
+  }
 }

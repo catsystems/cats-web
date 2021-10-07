@@ -13,3 +13,12 @@ document.querySelector('.menu-icon').addEventListener('click', () => {
   }
   menuExpanded = !menuExpanded
 })
+
+document.querySelector('.newsletter-form').addEventListener('submit', (e) => {
+  e.preventDefault()
+})
+
+document.querySelector('.newsletter-button').addEventListener('click', (e) => {
+  e.preventDefault()
+  alert('Not implemented, yet.')
+})

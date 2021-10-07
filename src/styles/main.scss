@@ -20,9 +20,12 @@
 @import 'utils';
 
 body {
-  color: $color-text;
+  color: var(--color-text);
   font-family: 'Inter', sans-serif;
-  padding-top: calc(#{$logo-height} + #{$header-vertical-padding} * 2 + #{$header-decoration-height})
+  padding-top: calc(
+    var(--logo-height) + var(--header-vertical-padding) * 2 +
+      var(--header-decoration-height)
+  );
 }
 
 img {

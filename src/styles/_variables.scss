@@ -1,14 +1,25 @@
-$wrap-size: 1rem;
+:root {
+  --logo-height: 3.25rem;
 
-$color-primary-700: #00142f;
-$color-neutral-900: #2E2E2E;
-$color-neutral-800: #474747;
-$color-neutral-700: #656565;
-$color-neutral-600: #8C8C8C;
-$color-neutral-500: #C0C0C0;
-$color-neutral-400: #E0E0E0;
-$color-neutral-300: #EFEFEF;
-$color-neutral-200: #F8F8F8;
-$color-accent-400: #F4A850;
-$color-text: #000;
-$color-background: #FFF;
+  --header-vertical-padding: 0.5rem;
+  --header-decoration-height: 2.5rem;
+
+  --wrap-size: 1rem;
+
+  --color-primary-700: #00142f;
+  --color-neutral-900: #2e2e2e;
+  --color-neutral-800: #474747;
+  --color-neutral-700: #656565;
+  --color-neutral-600: #8c8c8c;
+  --color-neutral-500: #c0c0c0;
+  --color-neutral-400: #e0e0e0;
+  --color-neutral-300: #efefef;
+  --color-neutral-200: #f8f8f8;
+  --color-accent-400: #f4a850;
+  --color-text: #000;
+  --color-background: #fff;
+
+  @media (min-width: 1024px) {
+    --wrap-size: 4.375rem;
+  }
+}
