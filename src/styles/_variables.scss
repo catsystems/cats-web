@@ -2,6 +2,9 @@
   --logo-height: 3.25rem;
 
   --header-vertical-padding: 0.5rem;
+  --header-height: calc(
+    var(--logo-height) + var(--header-vertical-padding) * 2
+  );
   --header-decoration-height: 2.5rem;
 
   --wrap-size: 1rem;

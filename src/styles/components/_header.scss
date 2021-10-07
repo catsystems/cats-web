@@ -13,28 +13,26 @@ header {
     line-height: 0;
   }
 
-  ::after {
-    background: linear-gradient(
-      0deg,
-      rgba(254, 159, 51, 0.94) 10%,
-      #f4a850 50%,
-      rgba(255, 190, 49, 0.94) 90%
-    );
-    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 70% 50%, 40% 100%, 0% 100%);
-    content: '';
-    display: block;
-    height: var(--header-decoration-height);
-    left: 0;
-    position: absolute;
-    top: 100%;
-    width: 100%;
-  }
-
   @media (min-width: 1024px) {
     --header-vertical-padding: 1.5rem;
 
-    .menu-icon {
+    .menu-button {
       display: none;
     }
   }
+}
+
+.header-decoration {
+  background: linear-gradient(
+    0deg,
+    rgba(254, 159, 51, 0.94) 10%,
+    #f4a850 50%,
+    rgba(255, 190, 49, 0.94) 90%
+  );
+  clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 70% 50%, 40% 100%, 0% 100%);
+  height: var(--header-decoration-height);
+  left: 0;
+  position: fixed;
+  top: var(--header-height);
+  width: 100%;
 }

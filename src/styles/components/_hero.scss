@@ -7,6 +7,7 @@
   );
   font-size: 2rem;
   font-weight: 500;
-  margin-top: calc(-1 * var(--header-decoration-height));
   padding: 3rem var(--wrap-size);
+  position: relative;
+  top: calc(-1 * var(--header-decoration-height));
 }
