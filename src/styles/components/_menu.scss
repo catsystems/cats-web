@@ -7,7 +7,7 @@
   position: fixed;
   right: 0;
   top: calc(var(--logo-height) + var(--header-vertical-padding) * 2);
-  z-index: var(--zindex-menu);
+  z-index: var(--z-index-menu);
 
   &-nav {
     padding: 2rem;

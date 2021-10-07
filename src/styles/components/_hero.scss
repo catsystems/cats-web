@@ -10,4 +10,5 @@
   padding: 3rem var(--wrap-size);
   position: relative;
   top: calc(-1 * var(--header-decoration-height));
+  z-index: var(--z-index-hero);
 }
