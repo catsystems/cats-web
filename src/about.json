@@ -30,11 +30,11 @@
     },
     {
       "heading": "What's Next?",
-      "paragraph": "Currently we have just one board - the CATS One. It is an advanced general purpose flight computer. Development of that board is never finished, we are always trying to improve. In parallel we are working on a telemetry extension board for the CATS One. In the future you can expect a wide range of smaller and bigger boards which fit the needs of every rocketeer."
+      "paragraph": "Currently we have just one board - the <a href=\"/cats-board-one\">CATS One</a>. It is an advanced general purpose flight computer. Development of that board is never finished, we are always trying to improve. In parallel we are working on a telemetry extension board for the CATS One. In the future you can expect a wide range of smaller and bigger boards which fit the needs of every rocketeer."
     },
     {
       "heading": "In the Meantime...",
-      "paragraph": "... have a look at our current product, join our Discord if you have questions, ideas or just want to talk about rockets!"
+      "paragraph": "... have a look at our current product, join our <a href=\"#\">Discord</a> if you have questions, ideas or just want to talk about rockets!"
     }
   ]
 }

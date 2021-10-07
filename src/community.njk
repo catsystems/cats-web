@@ -6,6 +6,6 @@ layout: base.njk
   <h1>Community and Support</h1>
   {% for section in sections %}
     <h2>{{ section.heading }}</h2>
-    <p>{{ section.paragraph }}</p>
+    <p>{{ section.paragraph | safe }}</p>
   {% endfor %}
 </div>

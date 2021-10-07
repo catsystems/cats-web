@@ -7,7 +7,7 @@ layout: base.njk
   <div class="stretched-out">
     <img src="/images/board.png"/>
   </div>
-  <p>{{ description }}</p>
+  <p>{{ description | safe }}</p>
   <h2>Get the latest updates</h2>
   <form class="newsletter-form" action="">
     <input type="email" placeholder="Enter your email"/>
