@@ -1,0 +1,18 @@
+.slider-and-newsletter {
+  @include respond-to('lg') {
+    column-gap: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    h2 {
+      margin-top: 0;
+    }
+
+    .description {
+      margin-top: 1.25rem;
+      order: 3;
+      width: 100%;
+    }
+  }
+}

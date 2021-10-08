@@ -1,3 +1,13 @@
+.altium-wrapper {
+  margin-left: calc(-1 * var(--wrap-size));
+  margin-right: calc(-1 * var(--wrap-size));
+
+  @include respond-to('lg') {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .altium-ecad-viewer {
   border-color: rgb(241, 241, 241);
   border-radius: 0 0 4px 4px;
