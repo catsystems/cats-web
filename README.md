@@ -1,6 +1,6 @@
 # General
 
-This projects uses the static site generator [Eleventy](https://www.11ty.dev/). To run locally, install dependencies:
+This project uses the static site generator [Eleventy](https://www.11ty.dev/). To run locally, install dependencies:
 
 `npm install`
 
