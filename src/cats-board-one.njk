@@ -27,9 +27,9 @@
     <p class="description">{{ description | safe }}</p>
     <div class="newsletter-signup">
       <h2>Get the latest updates</h2>
-      <form class="newsletter-form" action="">
-        <input type="email" placeholder="Enter your email"/>
-        <button class="primary-button newsletter-button">Subscribe</button>
+      <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true">
+        <input type="email" placeholder="Enter your email" required="required"/>
+        <button class="primary-button newsletter-button" type="submit">Subscribe</button>
       </form>
     </div>
   </div>

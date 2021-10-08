@@ -35,18 +35,12 @@ window.addEventListener('click', (e) => {
   }
 })
 
-// TODO: newsletter stuff
+// Disable newsletter sign up button on submit
 const newsletterForm = document.querySelector('.newsletter-form')
+const newsletterButton = document.querySelector('.newsletter-button')
 if (newsletterForm) {
   newsletterForm.addEventListener('submit', (e) => {
-    e.preventDefault()
-  })
-}
-
-const newsletterButton = document.querySelector('.newsletter-button')
-if (newsletterButton) {
-  newsletterButton.addEventListener('click', (e) => {
-    e.preventDefault()
-    alert('Not implemented yet.')
+    newsletterButton.disabled = true
+    newsletterButton.textContent = 'Sending...'
   })
 }
