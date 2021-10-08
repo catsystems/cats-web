@@ -1,19 +1,19 @@
 {
   "features": [
     {
-      "heading": "Easy model building",
-      "paragraph": "A Kalman filter fusing barometric and accelerometer data estimates the height and velocity of your sounding rocket. The filter can detect apogee reliably even if two barometers and two imu’s fail.",
-      "imageSrc": "images/misc/shiny-happy-graph.png"
+      "heading": "Precise Estimation",
+      "paragraph": "A Kalman filter fusing barometric and accelerometer data estimates the altitude and velocity of your rocket.",
+      "imageSrc": "images/misc/target.png"
     },
     {
-      "heading": "Fully open source hardware and software for easy modifications",
-      "paragraph": "All our hardware designs and software running on our board is fully open source. Documentation and support is also available through our website and our discord server.",
-      "imageSrc": "images/misc/shiny-happy-graph.png"
+      "heading": "Safety & Redundancy",
+      "paragraph": "Tons of safety features are in place to make sure your rocket lands softly on the ground. Some of these include redundant sensors, backup timers and state recovery after an unexpected power loss.",
+      "imageSrc": "images/misc/rocket.png"
     },
     {
-      "heading": "Powerful experimentation for research and student development",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ligula sollicitudin sagittis suspendisse et lacus, nisl leo. Consequat in eleifend pretium consequat, pellentesque in ut. At congue morbi praesent molestie tellus mattis dolor elementum ac.",
-      "imageSrc": "images/misc/shiny-happy-graph.png"
+      "heading": "Fully Open Source",
+      "paragraph": "All our hardware designs and software is fully open source. Documentation and support is also available through our website and our Discord server.",
+      "imageSrc": "images/misc/computer.png"
     }
   ]
 }
