@@ -1,0 +1,43 @@
+.floating-cat-container {
+  height: 350px;
+  margin-left: calc(-1 * var(--wrap-size));
+  margin-right: calc(-1 * var(--wrap-size));
+  overflow: hidden;
+  position: relative;
+}
+
+.floating-cat {
+  position: absolute;
+  z-index: var(--z-index-floating-cat);
+
+  &--fat {
+    animation: float-left 240s linear forwards;
+    right: 10px;
+    top: 120px;
+  }
+
+  &--small {
+    animation: float-right 30s linear forwards;
+    top: 150px;
+  }
+}
+
+@keyframes float-right {
+  from {
+    transform: translate(-25vw) rotate(0deg) scale(100%);
+    transform-origin: center;
+  }
+  to {
+    transform: translate(100vw, 60%) rotate(360deg) scale(50%);
+  }
+}
+
+@keyframes float-left {
+  from {
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+  to {
+    transform: translate(-100vw) rotate(-180deg) scale(120%);
+  }
+}

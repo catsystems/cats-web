@@ -15,8 +15,10 @@
   <div class="hero">
     <div class="hero-text">Fully open source sounding rocket computers</div>
   </div>
-  {{ "/images/cats/cat-1.svg" | svgContents | safe }}
-  {{ "/images/cats/cat-2.svg" | svgContents | safe }}
+  <div class="floating-cat-container">
+    {{ "/images/cats/small-cat.svg" | svgContents | safe }}
+    {{ "/images/cats/fat-cat.svg" | svgContents | safe }}
+  </div>
   <div class="intro">
     <h1>Why CATS?</h1>
     <p>We at CATS made it our goal to provide easy and modifiable rocket electronics for your sounding rocket. With the help of the documentation the boards are easily configurable for any use-case. As everything is open source, the functionality can be adapted to your specific needs.</p>
