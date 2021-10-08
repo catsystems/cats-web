@@ -44,3 +44,10 @@ if (newsletterForm) {
     newsletterButton.textContent = 'Sending...'
   })
 }
+
+const fatCat = document.querySelector('.floating-cat--fat')
+if (fatCat) {
+  fatCat.addEventListener('click', () => {
+    alert('Per aspera ad astra')
+  })
+}
