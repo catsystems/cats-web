@@ -1,5 +1,5 @@
 header {
-  background-color: var(--color-primary-700);
+  background-color: var(--color-primary-1200);
   display: flex;
   justify-content: space-between;
   left: 0;
@@ -43,7 +43,7 @@ header {
 .header-decoration {
   background: linear-gradient(
     0deg,
-    rgba(254, 159, 51, 0.94) 10%,
+    rgba(244, 168, 80, 0.94) 10%,
     #f4a850 50%,
     rgba(255, 190, 49, 0.94) 90%
   );

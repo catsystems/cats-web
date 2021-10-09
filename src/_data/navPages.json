@@ -1,18 +1,18 @@
 [
   {
-    "title": "About",
-    "href": "/about"
-  },
-  {
-    "title": "Community",
-    "href": "/community"
+    "title": "CATS Board One",
+    "href": "/cats-board-one"
   },
   {
     "title": "Software",
     "href": "/software"
   },
   {
-    "title": "CATS Board One",
-    "href": "/cats-board-one"
+    "title": "Community",
+    "href": "/community"
+  },
+  {
+    "title": "About",
+    "href": "/about"
   }
 ]

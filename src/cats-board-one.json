@@ -2,15 +2,19 @@
   "description": "The CATS Board One is an easy to use general purpose flight computer. The board detects its own orientation relative to the ground, removing any mounting constraints. The output events (e.g., parachute triggering, second stage ignition...) can be triggered both by the automatic flight phase detction or up to 8 configurable timers. If highly turbulent airflow is expected, a \"Mach timer\" can be enabled. With triple sensor redundancy....",
   "features": [
     ["Microcontroller", "STM32L433"],
-    ["Input Voltage", "7-24V"],
-    ["Pyro Outputs", "3"],
-    ["PWM Outputs", "2"],
-    ["Connections", "UART, CAN, 2 GPIOs"],
-    ["Sensors", "3 Barometers, 2 IMUs, 1 High-G Accelerometer, 1 Magnetometer"],
-    ["Configurable Timers", "8"],
-    ["Mach Timer", "Yes"],
-    ["Acceleration Liftoff Detection", "Yes"],
-    ["Two-Stage Recovery", "Yes"],
-    ["Configurable Logging", "Yes"]
+    ["Flash Memory", "256Mbit"],
+    ["IMU", "2x ICM-20601"],
+    ["High-G Accelerometer", "1x H3LIS100DL"],
+    ["Barometer", "3x MS5607"],
+    ["Input Voltages", "6-28V"],
+    ["Pyro Channels", "3"],
+    ["Pyro Channel Voltage", "Battery Voltage"],
+    ["Pyro Channel Current", "10A continuous"],
+    ["Servo Channels", "2"],
+    ["Servo Channel Voltage", "5V"],
+    ["Servo Channel Current", "4A"],
+    ["Low-level IO", "3"],
+    ["Communication Ports", "UART, CAN Bus"],
+    ["Power Consumption", "25mA @ 9V"]
   ]
 }

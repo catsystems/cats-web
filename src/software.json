@@ -1,12 +1,12 @@
 {
   "sections": [
     {
-      "heading": "Altitude Logging",
-      "paragraph": "Every interesting flight metric can be logged with a sampling rate of 100 Hz on the on-board flash chip. For an average flight time of 3 minutes/flight, a total of 13 flights can be logged. The logging starts just before liftoff and stops at touchdown. If you plan on flying longer than that you can pick and choose which metrics you want to log, thereby improving the logging time significantly."
+      "heading": "Kalman Filter State Estimation",
+      "paragraph": "By using acceleration and barometric data a linear kalman filter can estimate the altitude and velocity of your rocket. The different flight states like thrusting, coasting, apogee etc. are estimated. Additionaly, With the use of the accelerometer, magnetometer and gyroscope data we can estimate the orientation to a high degree of accuracy. This can be used to abort the second stage of two stage rocket launches or to inspect the stability of the rocket during flight."
     },
     {
-      "heading": "3D State Estimation",
-      "paragraph": "With the use of the accelerometer, magnetometer and gyroscope data we can estimate the orientation to a high degree of accuracy. This can be used to abort the second stage of two stage rocket launches or to inspect the stability of the rocket during flight."
+      "heading": "High-speed Logging",
+      "paragraph": "Every interesting flight metric can be logged with a sampling rate of 100 Hz on the flash memory. For an average flight time of 3 minutes/flight, a total of 15 flights can be logged. The logging starts just before liftoff and stops at touchdown. If you plan on flying longer than that you can pick and choose which metrics you want to log and its speed, thereby increasing the logging time significantly."
     },
     {
       "heading": "Highly Configurable Settings",
