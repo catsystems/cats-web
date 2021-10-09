@@ -1,11 +1,12 @@
 .people {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 9rem;
   margin-top: 9.375rem;
 
   @include respond-to('lg') {
-    flex-direction: row;
     gap: 4.375rem;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    margin-top: 11rem;
   }
 }

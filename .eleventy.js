@@ -1,6 +1,7 @@
 const svgContents = require('eleventy-plugin-svg-contents')
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy({ 'images/favicons': '/' })
   eleventyConfig.addPassthroughCopy('images')
   eleventyConfig.addPassthroughCopy('robots.txt')
 

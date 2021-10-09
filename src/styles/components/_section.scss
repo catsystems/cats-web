@@ -8,12 +8,10 @@
 }
 
 .section {
-  @include respond-to('lg') {
-    h2 {
+  h2 {
+    margin-top: 4rem;
+    @include respond-to('lg') {
       margin-top: 0;
     }
-  }
-  h2 {
-    margin-top: 2rem;
   }
 }

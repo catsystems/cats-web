@@ -21,5 +21,9 @@
 
   img {
     max-width: 30vw;
+
+    @include respond-to('lg') {
+      max-width: 9.5rem;
+    }
   }
 }
