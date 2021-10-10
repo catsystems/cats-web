@@ -50,7 +50,7 @@ header {
   clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 70% 50%, 40% 100%, 0% 100%);
   height: var(--header-decoration-height);
   left: 0;
-  position: fixed;
+  position: absolute;
   top: var(--header-height);
   width: 100%;
   z-index: var(--z-index-header-decoration);

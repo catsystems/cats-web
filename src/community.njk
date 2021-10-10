@@ -9,12 +9,14 @@
         <p>{{ section.paragraph | safe }}</p>
       </div>
     {% endfor %}
-    <div class="newsletter-signup">
-      <h2>Get the Latest Updates</h2>
-      <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true">
-        <input name="email" type="email" placeholder="Enter your email" required="required"/>
-        <button class="primary-button newsletter-button" type="submit">Subscribe</button>
-      </form>
+    <div class="section">
+      <div class="newsletter-signup">
+        <h2>Get the Latest Updates</h2>
+        <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true">
+          <input name="email" type="email" placeholder="Enter your email" required="required"/>
+          <button class="primary-button newsletter-button" type="submit">Subscribe</button>
+        </form>
+      </div>
     </div>
   </div>
 {% endblock %}
