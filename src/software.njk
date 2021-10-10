@@ -2,11 +2,16 @@
 
 {% block content %}
   <h1 class="page-heading">Software</h1>
-  <div class="section-container">
+  <div class="image-section-container">
     {% for section in sections %}
-      <div class="section">
-        <h2>{{ section.heading }}</h2>
-        <p>{{ section.paragraph | safe }}</p>
+      <div class="image-section">
+        <div class="stretched-out-on-mobile">
+          <img src="{{ section.imageSrc }}"/>
+        </div>
+        <div class="text">
+          <h2>{{ section.heading }}</h2>
+          <p>{{ section.paragraph | safe }}</p>
+        </div>
       </div>
     {% endfor %}
   </div>

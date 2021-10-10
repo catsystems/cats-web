@@ -1,0 +1,9 @@
+.stretched-out-on-mobile {
+  margin-left: calc(-1 * var(--wrap-size));
+  margin-right: calc(-1 * var(--wrap-size));
+
+  @include respond-to('lg') {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
