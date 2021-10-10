@@ -2,7 +2,7 @@
   "sections": [
     {
       "heading": "Stay Informed",
-      "paragraph": "All new announcements, code and hardware updates are posted on our <a href=\"https://discord.gg/r7ErmSNvsy\">Discord server</a>. New releases are obviously also released on our <a href=\"https://github.com/catsystems\">GitHub</a>. For smaller anouncements, updates and milestones check out our <a href=\"https://www.instagram.com/cat.systems\">Instagram</a>."
+      "paragraph": "All new announcements, code and hardware updates are posted on our <a href=\"https://discord.gg/r7ErmSNvsy\">Discord server</a>. New releases are obviously also released on our <a href=\"https://github.com/catsystems\">GitHub</a>. For smaller anouncements, updates and milestones check out our <a href=\"https://www.instagram.com/cat.systems\">Instagram</a>. Finally, you can subscribe to our mailing list where we will send out updates regarding product releases."
     },
     {
       "heading": "Join the Conversation",
@@ -10,7 +10,7 @@
     },
     {
       "heading": "Contributing",
-      "paragraph": "Do you want to contribute to our project? Hit us up on <a href=\"mailto:info@catsystems.io\">info@catsystems.io</a> and let us know your ideas! We would be proud to have more people implementing new features in our project."
+      "paragraph": "Do you want to contribute to our project? Hit us up on <a href=\"mailto:info@catsystems.io\">info@catsystems.io</a> and let us know your ideas! We would be proud to have more people implementing new features in our project or telling us about bugs and improvements!"
     }
   ]
 }

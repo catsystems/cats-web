@@ -22,7 +22,7 @@
   "sections": [
     {
       "heading": "Who Are We?",
-      "paragraph": "We are a bunch of cats who have been working together for two years now on several different amateur rocket projects. In our eyes and through our experience, the commercially available sounding rocket electronics lack in many elements. This is why we founded CATS, a small company that tries to improve rocket electronics for everyone - from amateurs through student organizations to hardcore sounding rocket fans!"
+      "paragraph": "We are a bunch of cats who have been working together for two years now on several different amateur rocket projects. In our eyes and through our experience, the commercially available sounding rocket electronics lack in many elements. This is why we founded CATS (Control and Telemetry Systems), a small company that tries to improve rocket electronics for everyone - from amateurs through student organizations to hardcore sounding rocket fans!"
     },
     {
       "heading": "Why Make Everything Open Source?",
@@ -30,11 +30,11 @@
     },
     {
       "heading": "What's Next?",
-      "paragraph": "Currently we have just one board - the <a href=\"/cats-board-one\">CATS One</a>. It is an advanced general purpose flight computer. In parallel we are working on a telemetry extension board for the CATS One. In the future you can expect a wide range of smaller and bigger boards which fit the needs of every rocketeer."
+      "paragraph": "Currently we have just one board - the <a href=\"/cats-board-one\">CATS One</a>. It is an advanced general-purpose flight computer that is still in development. More specifically the testing campaign of the board is not yet finished. In parallel we are working on a telemetry extension board for the CATS One. In the future you can expect a wide range of smaller and bigger boards that fit the needs of every rocketeer."
     },
     {
-      "heading": "In the Meantime...",
-      "paragraph": "... have a look at our current product, join our <a href=\"https://discord.gg/r7ErmSNvsy\">Discord</a> if you have questions, ideas or just want to talk about rockets!"
+      "heading": "What's up with our Cat Obsession?",
+      "paragraph": "As you may have observed on the website, we really like cats. What's not to love - they are fast, they can be loud and most importantly they always land on their paws. It's quite the same with rocketry and sounding rockets. Our flight computer makes sure that the last part is true."
     }
   ]
 }

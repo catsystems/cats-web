@@ -2,18 +2,18 @@
   "sections": [
     {
       "heading": "Kalman Filter State Estimation",
-      "paragraph": "By using acceleration and barometric data a linear kalman filter can estimate the altitude and velocity of your rocket. The different flight states like thrusting, coasting, apogee etc. are estimated. Additionaly, With the use of the accelerometer, magnetometer and gyroscope data we can estimate the orientation to a high degree of accuracy. This can be used to abort the second stage of two stage rocket launches or to inspect the stability of the rocket during flight."
+      "paragraph": "By using acceleration and barometric data a linear kalman filter can estimate the altitude and velocity of your rocket. The different flight states like thrusting, coasting, apogee etc. are estimated by using the filter and sensor data. Additionaly, With the use of the accelerometer, magnetometer and gyroscope data we can estimate the orientation to a high degree of accuracy. This can be used to abort the second stage of two stage rocket launches or to inspect the stability of the rocket during flight."
     },
     {
       "heading": "High-speed Logging",
-      "paragraph": "Every interesting flight metric can be logged with a sampling rate of 100 Hz on the flash memory. For an average flight time of 3 minutes/flight, a total of 15 flights can be logged. The logging starts just before liftoff and stops at touchdown. If you plan on flying longer than that you can pick and choose which metrics you want to log and its speed, thereby increasing the logging time significantly."
+      "paragraph": "Every interesting flight metric and sensor data can be logged with a sampling rate of 100 Hz on the flash memory. For an average flight time of 3 minutes/flight, a total of 15 flights can be logged. The logging starts just before liftoff and stops at touchdown. If you plan on flying longer than that you can pick and choose which metrics you want to log and its speed, thereby increasing the logging time significantly."
     },
     {
       "heading": "Highly Configurable Settings",
       "paragraph": "Any output (servos, GPIOs or pyro channels) can be mapped to any flight phase or timer. Any timer can be started at any given flight phase. Hence the user has full authority over the control flow. For more information regarding the flight phases and IOs check out our documentation."
     },
     {
-      "heading": "Hardware-in-the-Loop Flight Simulation",
+      "heading": "Hardware-in-the-Loop Simulations",
       "paragraph": "If you have access to simulation tools or want to check out why something did not work out as expected on a previous flight you can inject simulated or previously recorded data into the flight computer for testing. With this you can verify if your configuration, timers etc. are set correctly and feel confident that your rocket will land safely on the ground."
     }
   ]
