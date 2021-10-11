@@ -1,4 +1,6 @@
 {
+  "title": "Software",
+  "description": "This page describes the coolest software features of the CATS flight computer.",
   "sections": [
     {
       "heading": "Kalman Filter State Estimation",

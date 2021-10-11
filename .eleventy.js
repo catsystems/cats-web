@@ -4,6 +4,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'images/favicons': '/' })
   eleventyConfig.addPassthroughCopy('images')
   eleventyConfig.addPassthroughCopy('robots.txt')
+  eleventyConfig.addPassthroughCopy('sitemap.xml')
 
   eleventyConfig.addPlugin(svgContents)
 

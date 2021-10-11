@@ -1,6 +1,9 @@
 {% extends "base.njk" %}
 {% from "macros.njk" import feature %}
 
+{% block title %}{{ title }}{% endblock %}
+{% block description %}{{ description }}{% endblock %}
+
 {% block css %}
   <style>
     .header-decoration {

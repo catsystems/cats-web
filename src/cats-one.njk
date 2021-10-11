@@ -1,5 +1,8 @@
 {% extends "base.njk" %}
 
+{% block title %}{{ title }}{% endblock %}
+{% block description %}{{ description }}{% endblock %}
+
 {% block content %}
   <h1 class="page-heading">CATS One</h1>
   <div class="slider-and-newsletter">
@@ -21,7 +24,7 @@
         {{ "/images/icons/right-arrow.svg" | svgContents | safe }}
       </button>
     </div>
-    <p class="description">{{ description | safe }}</p>
+    <p class="description">{{ productDescription | safe }}</p>
     <div class="newsletter-signup">
       <h2>Get the Latest Updates</h2>
       <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true">
@@ -44,6 +47,6 @@
   </table>
   <h2>Interactive Board Explorer</h2>
   <div class="altium-wrapper">
-    <div class="altium-ecad-viewer" data-project-src="5372e99b-47fe-4ecc-945f-572f319ed9aa"  data-enabled-views="sch,pcb,3d,bom" data-active-view="sch"></div>
+    <div class="altium-ecad-viewer" data-project-src="5372e99b-47fe-4ecc-945f-572f319ed9aa" data-enabled-views="sch,pcb,3d,bom" data-active-view="sch"></div>
   </div>
 {% endblock %}
