@@ -6,18 +6,24 @@
       "name": "Luca Jost",
       "role": "Hardware & Software",
       "imageSrc": "/images/luca-cat.png",
+      "imageWidth": "723",
+      "imageHeight": "723",
       "backgroundColor": "#CCC"
     },
     {
       "name": "Nemanja Stojoski",
       "role": "Software & Data Handling",
       "imageSrc": "/images/nemanja-cat.png",
+      "imageWidth": "964",
+      "imageHeight": "964",
       "backgroundColor": "rgba(46, 133, 197, 0.3)"
     },
     {
       "name": "Jonas Binz",
       "role": "Software & Control",
       "imageSrc": "/images/jonas-cat.png",
+      "imageWidth": "964",
+      "imageHeight": "964",
       "backgroundColor": "rgba(244, 168, 80, 0.5)"
     }
   ],

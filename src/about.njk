@@ -16,7 +16,7 @@
   <div class="people">
     {% for person in people %}
       <div class="person-card" style="background-color: {{ person.backgroundColor }}">
-        <img src="{{ person.imageSrc }}"/>
+        <img src="{{ person.imageSrc }}" width="{{ person.imageWidth }}" height="{{ person.imageHeight }}"/>
         <div>
           <div class="name">{{ person.name }}</div>
           <div class="role">{{ person.role }}</div>

@@ -1,6 +1,6 @@
 {% macro feature(heading, paragraph, imageSrc) %}
   <div class="feature">
-    <img src="{{ imageSrc }}"/>
+    <img src="{{ imageSrc }}" width="512" height="512" />
     <h2>{{ heading }}</h2>
     <p>{{ paragraph | safe }}</p>
   </div>

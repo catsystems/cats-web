@@ -9,7 +9,7 @@
     {% for section in sections %}
       <div class="image-section">
         <div class="stretched-out-on-mobile">
-          <img src="{{ section.imageSrc }}"/>
+          <img src="{{ section.imageSrc }}" width="{{ section.imageWidth }}" height="{{ section.imageHeight }}"/>
         </div>
         <div class="text">
           <h2>{{ section.heading }}</h2>
