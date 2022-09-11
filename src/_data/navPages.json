@@ -1,7 +1,11 @@
 [
   {
-    "title": "CATS One",
-    "href": "/cats-one/"
+    "title": "Vega",
+    "href": "/cats-vega/"
+  },
+  {
+    "title": "Ground Station",
+    "href": "/ground-station/"
   },
   {
     "title": "Software",

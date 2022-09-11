@@ -1,0 +1,49 @@
+{% extends "base.njk" %}
+
+{% block title %}{{ title }}{% endblock %}
+{% block description %}{{ description }}{% endblock %}
+
+{% block content %}
+  <h1 class="page-heading">Vega</h1>
+  <div class="slider-and-newsletter">
+    <div class="embla">
+      <div class="embla-viewport">
+        <div class="embla-container">
+          <div class="embla-slide">
+            <img class="embla-slide-img" src="/images/vega/front.png" width="1710" height="871" />
+          </div>
+        </div>
+      </div>
+      <button class="embla-button embla-button--prev hit-target" type="button">
+        {{ "/images/icons/left-arrow.svg" | svgContents | safe }}
+      </button>
+      <button class="embla-button embla-button--next hit-target" type="button">
+        {{ "/images/icons/right-arrow.svg" | svgContents | safe }}
+      </button>
+    </div>
+    <p class="description">{{ productDescription | safe }}</p>
+    <div class="newsletter-signup">
+      <h2>Get the Latest Updates</h2>
+      <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true">
+        <input name="email" type="email" placeholder="Enter your email" required="required"/>
+        <button class="primary-button newsletter-button" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <h2>Features</h2>
+  <table>
+    <tbody>
+      {% for feature in features %}
+        <tr>
+          {% for d in feature %}
+            <td>{{ d }}</td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <h2>Interactive Board Explorer</h2>
+  <div class="altium-wrapper">
+    <div class="altium-ecad-viewer" data-project-src="ac19e460-f65e-4289-ae49-c7b09831b5e3" data-enabled-views="sch,pcb,3d,bom" data-active-view="sch"></div>
+  </div>
+{% endblock %}

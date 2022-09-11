@@ -30,15 +30,15 @@
   "sections": [
     {
       "heading": "Who Are We?",
-      "paragraph": "We are a bunch of cats who have been working together for two years now on several different amateur rocket projects. In our eyes and through our experience, the commercially available sounding rocket electronics lack in many elements. This is why we founded CATS (Control and Telemetry Systems), a small company that tries to improve rocket electronics for everyone - from amateurs through student organizations to hardcore sounding rocket fans!"
-    },
-    {
-      "heading": "Why Make Everything Open Source?",
-      "paragraph": "When we started the project it was obvious to us from day one that everything needed to be open source. It brings too many advantages: the customer can adapt our product to his needs, they can contribute to the project, report bugs, and most importantly, they knows exactly what they are buying."
+      "paragraph": "We are a bunch of cats who have been working together for three years now on several different amateur rocket projects. In our eyes and through our experience, the commercially available sounding rocket electronics lack in many elements. This is why we founded CATS (Control and Telemetry Systems), a small company that tries to improve rocket electronics for everyone - from amateurs through student organizations to hardcore sounding rocket fans!"
     },
     {
       "heading": "What's Next?",
-      "paragraph": "Currently we have just one board - the <a href=\"/cats-board-one\">CATS One</a>. It is an advanced general-purpose flight computer that is still in development. More specifically the testing campaign of the board is not yet finished. In parallel we are working on a telemetry extension board for the CATS One. In the future you can expect a wide range of smaller and bigger boards that fit the needs of every rocketeer."
+      "paragraph": "Currently we have just one board - <a href=\"/cats-board-orion\">Vega</a>. It is an advanced general-purpose flight computer with telemetry and GPS. We were able to demonstrate its reliability at EuRoC and are currently adding some final touches. The board will be ready for ordering in January and shipping will start on January 31st. This release will be a beta release where we want to collect as much feedback as possible. Hence the board will also be cheaper than the final price. In parallel we are also finishing up the <a href=\"/ground-station\">Ground Station</a>, which will be released at the same time. If you have any interest in buying a board don't hesitate to contact us."
+    },
+    {
+      "heading": "Why Make Everything Open Source?",
+      "paragraph": "When we started the project it was obvious to us from day one that everything needed to be open source. It brings too many advantages: the customer can adapt our product to their needs, they can contribute to the project, report bugs, and most importantly, they know exactly what they are buying."
     },
     {
       "heading": "What's up with our Cat Obsession?",
