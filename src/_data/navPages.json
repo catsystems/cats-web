@@ -1,11 +1,15 @@
 [
   {
-    "title": "CATS Vega",
+    "title": "Orion",
+    "href": "/cats-orion/"
+  },
+  {
+    "title": "Vega",
     "href": "/cats-vega/"
   },
   {
-    "title": "CATS Orion",
-    "href": "/cats-orion/"
+    "title": "Ground Station",
+    "href": "/ground-station/"
   },
   {
     "title": "Software",

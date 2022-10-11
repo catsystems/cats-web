@@ -1,7 +1,7 @@
 {
-  "title": "CATS Vega",
-  "description": "Learn about all the features of the CATS Vega flight computer and explore its hardware design with the interactive viewer.",
-  "productDescription": "The CATS Vega is an easy to use general purpose flight computer. The board detects its own orientation relative to the ground, removing any mounting constraints. The output events (e.g., parachute triggering, second stage ignition...) can be triggered both by the automatic flight phase detction or up to 8 configurable timers. If highly turbulent airflow is expected, a \"Mach timer\" can be enabled. All sensors as well as relevant flight information is logged with a max speed of 100 Hz on the flash memory that can be read out right after the flight. You can find the hardware features of the board further below.",
+  "title": "Vega",
+  "description": "Learn about all the features of the Vega flight computer and explore its hardware design with the interactive viewer.",
+  "productDescription": "The Vega is an easy to use general purpose flight computer. The board detects its own orientation relative to the ground, removing any mounting constraints. The output events (e.g., parachute triggering, second stage ignition...) can be triggered both by the automatic flight phase detction or up to 8 configurable timers. If highly turbulent airflow is expected, a \"Mach timer\" can be enabled. All sensors as well as relevant flight information is logged with a max speed of 100 Hz on the flash memory that can be read out right after the flight. You can find the hardware features of the board further below.",
   "features": [
     ["Microcontroller", "STM32F411"],
     ["Flash Memory", "128Mbit"],
