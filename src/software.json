@@ -19,7 +19,7 @@
     {
       "heading": "Highly Configurable Settings",
       "paragraph": "Any output (servos, GPIOs or pyro channels) can be mapped to any flight phase or timer. Any timer can be started at any given flight phase. Hence the user has full authority over the control flow. For more information regarding the flight phases and IOs check out our documentation.",
-      "imageSrc": "/images/software/action-config.png",
+      "imageSrc": "/images/software/configurator.png",
       "imageWidth": "2020",
       "imageHeight": "1136"
     },
