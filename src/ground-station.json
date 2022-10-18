@@ -1,25 +1,16 @@
 {
   "title": "Ground Station",
-  "description": "Learn about all the features of the CATS Ground Station and explore its hardware design with the interactive viewer.",
-  "productDescription": "some text pls",
+  "description": "Learn about all the features of the Ground Station and explore its hardware design with the interactive viewer.",
+  "productDescription": "The Ground Station is the supplementary hardware to the Vega flight computer. It can receives data from two independent Vegas or track one Vega with both antennas. The connection to an individual Vega board is set by defining the “link phrase” that needs to match the one configured on the Vega board. The ground station is very handy as a joystick and buttons are used to set all parameters.<br/><br/>The ground station has a transflective display making it very readable under bright sunlight, a USB interface where the battery can be charged, on-board memory for logging the received data, a compass and a GPS module.<br/><br/>The user can navigate between three different menus. The first shows the live data from the Vega board, including height above ground level, velocity and GPS data. The second screen is the recovery view, where the distance and the direction to the rocket is shown. In the third menu, the settings can be configured, including the link phrase and further settings. The connection to a computer is only needed to read out the logs, as all configurations are done using the buttons on the groundstation.",
   "features": [
-    ["Microcontroller", "STM32F411"],
-    ["Flash Memory", "128Mbit"],
-    ["IMU", "ICM-20601 or LSM6DSO32"],
-    ["Barometer", "MS5607"],
-    ["Radio Frequency", "ISM 2.4GHz"],
-    ["Radio Power", "Up to 1W"],
+    ["Microcontroller", "ESP32-S2"],
+    ["Flash Memory", "4MB"],
+    ["Battery", "Li-Ion 18650"],
+    ["Power Consumption", "60mA"],
+    ["Charging Current", "500mA"],
+    ["Screen", "LS027B7DH01"],
+    ["Radio", "2x SX1280"],
     ["Radio Range", "Tested to 10km @100mW"],
-    ["Input Voltages", "6-16V"],
-    ["Pyro Channels", "2"],
-    ["Pyro Channel Voltage", "Battery Voltage"],
-    ["Pyro Channel Current", "5A continuous"],
-    ["Servo Channels", "2"],
-    ["Servo Channel Voltage", "5V"],
-    ["Servo Channel Current", "4A"],
-    ["Low-level IO", "3"],
-    ["Communication Ports", "UART"],
-    ["Power Consumption", "25mA @ 9V"],
-    ["Dimensions", "10 x 3.3 x 2.1 cm"]
+    ["GNSS", "ATGM336H-5N"]
   ]
 }

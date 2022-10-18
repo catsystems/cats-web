@@ -1,10 +1,10 @@
 {
   "title": "Vega",
   "description": "Learn about all the features of the Vega flight computer and explore its hardware design with the interactive viewer.",
-  "productDescription": "The Vega is an easy to use general purpose flight computer. The board detects its own orientation relative to the ground, removing any mounting constraints. The output events (e.g., parachute triggering, second stage ignition...) can be triggered both by the automatic flight phase detction or up to 8 configurable timers. If highly turbulent airflow is expected, a \"Mach timer\" can be enabled. All sensors as well as relevant flight information is logged with a max speed of 100 Hz on the flash memory that can be read out right after the flight. You can find the hardware features of the board further below.",
+  "productDescription": "Vega is our general purpose flight computer. The board detects its own orientation relative to ground, removing any mounting constraints. An internal Finite State Machine implements the transitions between MOVING, READY, THRUSTING, COASTING, DROGUE, MAIN and TOUCHDOWN states. At each transition, events are thrown that can easily be configured by the user. Vega supports 2 Pyro channels, 2 Servo channels and general purpose I/Os for deployment events. Backup timers can also be set up.<br/><br/>Vega also implements a telemetry link to the Ground Station. Current height, velocity, GPS coordinates, battery voltage and the current state are sent down with 10 Hz. The telemetry operates at 2.4 GHz and is implemented using the whole frequency band by hopping. To synchronize your groundstation to Vega, only a \"link phrase\" needs to be set on both devices. Vega is also fully functional without the ground station.<br/><br/>All relevant information (including linear acceleration, angular velocity, temperature, barometric pressure, height, velocity, GPS coordinates, current state and triggered actions) are logged to the board's internal flash chip. This data can be accessed on any computer by just connecting Vega with a USB-C cable.",
   "features": [
     ["Microcontroller", "STM32F411"],
-    ["Flash Memory", "128Mbit"],
+    ["Flash Memory", "16MB"],
     ["IMU", "ICM-20601 or LSM6DSO32"],
     ["Barometer", "MS5607"],
     ["Radio Frequency", "ISM 2.4GHz"],
