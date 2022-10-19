@@ -8,11 +8,11 @@
     },
     {
       "heading": "Configurator",
-      "paragraph": "Get the latest configurator on our <a href=\"https://github.com/catsystems/cats-configurator/releases\">GitHub</a>."
+      "paragraph": "Get the latest configurator on our <a href=\"https://github.com/catsystems/cats-configurator/releases\" target=\"_blank\">GitHub</a>."
     },
     {
       "heading": "Firmware",
-      "paragraph": "Get the latest firmware on our <a href=\"https://github.com/catsystems/cats-embedded/releases\">GitHub</a>."
+      "paragraph": "Get the latest firmware on our <a href=\"https://github.com/catsystems/cats-embedded/releases\" target=\"_blank\">GitHub</a>."
     }
   ]
 }

@@ -36,14 +36,14 @@ window.addEventListener('click', (e) => {
 })
 
 // Disable newsletter sign up button on submit
-const newsletterForm = document.querySelector('.newsletter-form')
-const newsletterButton = document.querySelector('.newsletter-button')
-if (newsletterForm) {
-  newsletterForm.addEventListener('submit', (e) => {
-    newsletterButton.disabled = true
-    newsletterButton.textContent = 'Sending...'
-  })
-}
+// const newsletterForm = document.querySelector('.newsletter-form')
+// const newsletterButton = document.querySelector('.newsletter-button')
+// if (newsletterForm) {
+//   newsletterForm.addEventListener('submit', (e) => {
+//     newsletterButton.disabled = true
+//     newsletterButton.textContent = 'Sending...'
+//   })
+// }
 
 const fatCat = document.querySelector('.floating-cat--fat')
 if (fatCat) {

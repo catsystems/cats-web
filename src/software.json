@@ -18,7 +18,7 @@
     },
     {
       "heading": "Highly Configurable Settings",
-      "paragraph": "The <a href=\"https://github.com/catsystems/cats-configurator/releases\">CATS Configurator</a> allows you to customize the board according to your needs. Servos, GPIOs, and pyro channels can be mapped to any flight phase. Furthermore, timers can be started at any given event and customized to trigger outputs. For more information regarding the flight phases and IOs check out our <a href=\"/downloads\">documentation</a>.",
+      "paragraph": "The <a href=\"https://github.com/catsystems/cats-configurator/releases\" target=\"_blank\">CATS Configurator</a> allows you to customize the board according to your needs. Servos, GPIOs, and pyro channels can be mapped to any flight phase. Furthermore, timers can be started at any given event and customized to trigger outputs. For more information regarding the flight phases and IOs check out our <a href=\"/downloads\">documentation</a>.",
       "imageSrc": "/images/software/configurator.png",
       "imageWidth": "2020",
       "imageHeight": "1136"

@@ -4,11 +4,11 @@
   "sections": [
     {
       "heading": "Stay Informed",
-      "paragraph": "All new announcements, code and hardware updates are posted on our <a href=\"https://discord.gg/r7ErmSNvsy\">Discord server</a>. New releases are obviously also released on our <a href=\"https://github.com/catsystems\">GitHub</a>. For smaller anouncements, updates and milestones check out our <a href=\"https://www.instagram.com/cat.systems\">Instagram</a>."
+      "paragraph": "All new announcements, code and hardware updates are posted on our <a href=\"https://discord.gg/r7ErmSNvsy\" target=\"_blank\">Discord server</a>. New releases are obviously also released on our <a href=\"https://github.com/catsystems\" target=\"_blank\">GitHub</a>. For smaller anouncements, updates and milestones check out our <a href=\"https://www.instagram.com/cat.systems\" target=\"_blank\">Instagram</a>."
     },
     {
       "heading": "Join the Conversation",
-      "paragraph": "Our main platform for conversation, feedback etc. is our <a href=\"https://discord.gg/r7ErmSNvsy\">Discord server</a>. If you have interesting ideas, feedback, questions or just want to talk about rockets and flight electronics join our server!"
+      "paragraph": "Our main platform for conversation, feedback etc. is our <a href=\"https://discord.gg/r7ErmSNvsy\" target=\"_blank\">Discord server</a>. If you have interesting ideas, feedback, questions or just want to talk about rockets and flight electronics join our server!"
     },
     {
       "heading": "Contributing",
