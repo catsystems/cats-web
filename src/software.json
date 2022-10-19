@@ -11,14 +11,14 @@
     },
     {
       "heading": "High-speed Logging",
-      "paragraph": "Every interesting flight metric and sensor data can be logged with a sampling rate of 100 Hz on the flash memory. For an average flight time of 3 minutes/flight, a total of 15 flights can be logged. The logging starts just before liftoff and stops at touchdown. If you plan on flying longer than that you can pick and choose which metrics you want to log and its speed, thereby increasing the logging time significantly.",
+      "paragraph": "Every interesting flight metric and sensor data is logged with a sampling rate of 100Hz on the flash memory. If all logging elements are enabled, up to one hour of flight data can be logged. The logging starts just before liftoff and stops at touchdown. If you plan on flying longer than that you can pick and choose which metrics you want to log and its speed, thereby increasing the logging time significantly.",
       "imageSrc": "/images/software/alt-plot.png",
       "imageWidth": "1422",
       "imageHeight": "800"
     },
     {
       "heading": "Highly Configurable Settings",
-      "paragraph": "The CATS Configurator allows you to customize the board according to your needs. Servos, GPIOs, and pyro channels can be mapped to any flight phase. Furthermore, timers can be started at any given event and customized to trigger outputs. For more information regarding the flight phases and IOs check out our documentation.",
+      "paragraph": "The <a href=\"https://github.com/catsystems/cats-configurator/releases\">CATS Configurator</a> allows you to customize the board according to your needs. Servos, GPIOs, and pyro channels can be mapped to any flight phase. Furthermore, timers can be started at any given event and customized to trigger outputs. For more information regarding the flight phases and IOs check out our <a href=\"/downloads\">documentation</a>.",
       "imageSrc": "/images/software/configurator.png",
       "imageWidth": "2020",
       "imageHeight": "1136"

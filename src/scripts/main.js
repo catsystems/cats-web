@@ -51,3 +51,10 @@ if (fatCat) {
     alert('Per aspera ad astra')
   })
 }
+
+const smolCat = document.querySelector('.floating-cat--small')
+if (smolCat) {
+  smolCat.addEventListener('click', () => {
+    alert('Meow :3')
+  })
+}

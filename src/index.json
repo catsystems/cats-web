@@ -9,12 +9,12 @@
     },
     {
       "heading": "Safety & Redundancy",
-      "paragraph": "Tons of safety features are in place to make sure your rocket lands softly on the ground. Some of these include redundant sensors, backup timers and state recovery after an unexpected power loss.",
+      "paragraph": "Tons of safety features are in place to make sure your rocket lands softly on the ground. Backup timers can be configured and ground tests are easily conducted.",
       "imageSrc": "images/misc/rocket.png"
     },
     {
       "heading": "Fully Open Source",
-      "paragraph": "All our hardware designs and software is fully open source. Documentation and support is also available through our website and our Discord server.",
+      "paragraph": "All our hardware designs and software is fully open source. Documentation and support is also available through our website and our <a href=\"https://discord.gg/r7ErmSNvsy\">Discord server</a>.",
       "imageSrc": "images/misc/computer.png"
     }
   ]

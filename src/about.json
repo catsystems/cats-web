@@ -34,7 +34,7 @@
     },
     {
       "heading": "What's Next?",
-      "paragraph": "Currently we have just one board - <a href=\"/cats-board-orion\">Vega</a>. It is an advanced general-purpose flight computer with telemetry and GPS. We were able to demonstrate its reliability at EuRoC and are currently adding some final touches. The board will be ready for ordering in January and shipping will start on January 31st. This release will be a beta release where we want to collect as much feedback as possible. Hence the board will also be cheaper than the final price. In parallel we are also finishing up the <a href=\"/ground-station\">Ground Station</a>, which will be released at the same time. If you have any interest in buying a board don't hesitate to contact us."
+      "paragraph": "Currently we have just one board - <a href=\"/cats-vega\">Vega</a>. It is an advanced general-purpose flight computer with telemetry and GPS. We were able to demonstrate its reliability at EuRoC and are currently adding some final touches. The board will be ready for ordering in January and shipping will start on January 31st. This release will be a beta release where we want to collect as much feedback as possible. Hence the board will also be cheaper than the final price. In parallel we are also finishing up the <a href=\"/ground-station\">ground station</a>, which will be released at the same time. If you have any interest in buying a board don't hesitate to contact us."
     },
     {
       "heading": "Why Make Everything Open Source?",

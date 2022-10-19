@@ -1,0 +1,18 @@
+{
+  "title": "Downloads",
+  "description": "This page describes the coolest software features of the CATS flight computer.",
+  "sections": [
+    {
+      "heading": "User Manual",
+      "paragraph": "Work in progress..."
+    },
+    {
+      "heading": "Configurator",
+      "paragraph": "Get the latest configurator on our <a href=\"https://github.com/catsystems/cats-configurator/releases\">GitHub</a>."
+    },
+    {
+      "heading": "Firmware",
+      "paragraph": "Get the latest firmware on our <a href=\"https://github.com/catsystems/cats-embedded/releases\">GitHub</a>."
+    }
+  ]
+}

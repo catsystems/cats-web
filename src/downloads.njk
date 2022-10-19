@@ -1,0 +1,16 @@
+{% extends "base.njk" %}
+
+{% block title %}{{ title }}{% endblock %}
+{% block description %}{{ description }}{% endblock %}
+
+{% block content %}
+  <h1 class="page-heading">Downloads</h1>
+  <div class="section-container">
+    {% for section in sections %}
+      <div class="section">
+        <h2>{{ section.heading }}</h2>
+        <p>{{ section.paragraph | safe }}</p>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
