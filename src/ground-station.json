@@ -1,6 +1,6 @@
 {
   "title": "Ground Station",
-  "description": "Learn about all the features of the Ground Station and explore its hardware design with the interactive viewer.",
+  "description": "Learn about all the features of the CATS ground station and explore its hardware design with the interactive viewer.",
   "productDescription": "The Ground Station is the supplementary hardware to the Vega flight computer. It can receives data from two independent Vegas or track one Vega with both antennas. The connection to an individual Vega board is set by defining the “link phrase” that needs to match the one configured on the Vega board. The ground station is very handy as a joystick and buttons are used to set all parameters.<br/><br/>The ground station has a transflective display making it very readable under bright sunlight, a USB interface where the battery can be charged, on-board memory for logging the received data, a compass and a GPS module.<br/><br/>The user can navigate between three different menus. The first shows the live data from the Vega board, including height above ground level, velocity and GPS data. The second screen is the recovery view, where the distance and the direction to the rocket is shown. In the third menu, the settings can be configured, including the link phrase and further settings. The connection to a computer is only needed to read out the logs, as all configurations are done using the buttons on the groundstation.",
   "features": [
     ["Microcontroller", "ESP32-S2"],
