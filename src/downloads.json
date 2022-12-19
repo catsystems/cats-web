@@ -4,7 +4,7 @@
   "sections": [
     {
       "heading": "User Manual",
-      "paragraph": "Work in progress..."
+      "paragraph": "You can find the CATS User Manual <a href=\"https://github.com/catsystems/cats-embedded/raw/main/CATS%20User%20Manual.pdf\" target=\"_blank\">here</a>."
     },
     {
       "heading": "Configurator",
